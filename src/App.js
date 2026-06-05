@@ -79,21 +79,21 @@ export default function App() {
       company: 'Bluestock Fintech',
       role: 'Software Development Engineer (SDE) Intern',
       work: 'Worked on frontend-backend integration, debugging, application enhancement, and real-world software development workflows.',
-      certificate: '/certificates/bluestock.jpeg',
+      certificate: '/certifications/bluestock.jpeg',
     },
 
     {
       company: 'PAT Technologies (Edutainer)',
       role: 'Software Development Intern',
       work: 'Worked on software development, API integration, debugging, and full-stack implementation tasks during internship training.',
-      certificate: '/certificates/edutainer.pdf',
+      certificate: '/certifications/edutainer.pdf',
     },
 
     {
       company: 'Orb Focus Pvt Ltd',
       role: 'Web Development Intern',
       work: 'Worked on web application development, testing, debugging, and UI improvements using modern web technologies.',
-      certificate: '/certificates/orbfocus.pdf',
+      certificate: '/certifications/orb_focus_internship.jpeg',
     },
   ];
 
@@ -164,7 +164,7 @@ export default function App() {
           <span className="text-cyan-400">
             Vedavyasa C S
           </span>{' '}
-          👋
+          ðŸ‘‹
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
@@ -457,11 +457,11 @@ export default function App() {
 
         <div className="space-y-4 text-lg text-gray-300">
 
-          <p>📧 csvedavyasa2003@gmail.com</p>
+          <p>ðŸ“§ csvedavyasa2003@gmail.com</p>
 
-          <p>📱 +91 7204826477</p>
+          <p>ðŸ“± +91 7204826477</p>
 
-          <p>📍 Bengaluru, Karnataka</p>
+          <p>ðŸ“ Bengaluru, Karnataka</p>
 
           <div className="flex justify-center gap-6 mt-4">
 
@@ -493,11 +493,11 @@ export default function App() {
       <footer className="border-t border-gray-800 py-8 text-center text-gray-500">
 
         <p>
-          “Passionate about building technology that solves real-world problems.”
+          â€œPassionate about building technology that solves real-world problems.â€
         </p>
 
         <p className="mt-2">
-          © 2026 Vedavyasa C S
+          Â© 2026 Vedavyasa C S
         </p>
 
       </footer>
