@@ -1,5 +1,11 @@
+from pathlib import Path
+
 import streamlit as st
 import streamlit.components.v1 as components
+
+BUILD_DIR = Path(__file__).parent / "static" / "portfolio"
+INDEX_FILE = BUILD_DIR / "index.html"
+STATIC_BASE = "/app/static/portfolio/"
 
 st.set_page_config(
     page_title="Vedavyasa C S | Portfolio",
@@ -14,21 +20,11 @@ st.markdown(
       .stApp { background: #000; }
       .block-container { padding: 0; max-width: 100%; }
       header, footer { visibility: hidden; height: 0; }
-      iframe { display: block; }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-components.html(
-    """
-    <iframe
-      src="/app/static/portfolio/index.html"
-      style="width:100%; height:100vh; border:0; margin:0; padding:0; background:#000;"
-      title="Vedavyasa C S Portfolio"
-      loading="eager"
-    ></iframe>
-    """,
-    height=900,
-    scrolling=False,
-)
+html = INDEX_FILE.read_text(encoding="utf-8")
+html = html.replace("<head>", f'<head><base href="{STATIC_BASE}">', 1)
+components.html(html, height=1200, scrolling=True)

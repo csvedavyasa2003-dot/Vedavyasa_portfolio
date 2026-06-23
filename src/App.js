@@ -79,43 +79,43 @@ export default function App() {
       company: 'Bluestock Fintech',
       role: 'Software Development Engineer (SDE) Intern',
       work: 'Worked on frontend-backend integration, debugging, application enhancement, and real-world software development workflows.',
-      certificate: '/certifications/bluestock.jpeg',
+      certificate: 'certifications/bluestock.jpeg',
     },
 
     {
       company: 'PAT Technologies (Edutainer)',
       role: 'Software Development Intern',
       work: 'Worked on software development, API integration, debugging, and full-stack implementation tasks during internship training.',
-      certificate: '/certifications/edutainer.pdf',
+      certificate: 'certifications/edutainer.pdf',
     },
 
     {
       company: 'Orb Focus Pvt Ltd',
       role: 'Web Development Intern',
       work: 'Worked on web application development, testing, debugging, and UI improvements using modern web technologies.',
-      certificate: '/certifications/orb_focus_internship.jpeg',
+      certificate: 'certifications/orb_focus_internship.jpeg',
     },
   ];
 
   const certifications = [
     {
       title: 'IBM Introduction to Cloud',
-      file: '/certifications/cloud.pdf',
+      file: 'certifications/cloud.pdf',
     },
 
     {
       title: 'Python & SQL Certification',
-      file: '/certifications/python-sql.pdf',
+      file: 'certifications/python-sql.pdf',
     },
 
     {
       title: 'NPTEL Programming in Java',
-      file: '/certifications/java.pdf',
+      file: 'certifications/java.pdf',
     },
 
     {
       title: 'IBM SQL and Relational Databases 101',
-      file: '/certifications/sql-db.pdf',
+      file: 'certifications/sql-db.pdf',
     },
   ];
 
@@ -164,7 +164,7 @@ export default function App() {
           <span className="text-cyan-400">
             Vedavyasa C S
           </span>{' '}
-          ðŸ‘‹
+          Ã°Å¸â€˜â€¹
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
@@ -195,7 +195,7 @@ export default function App() {
           </a>
 
           <a
-            href="/certifications/Vedavyasa_1DS24MC113.pdf"
+            href="certifications/Vedavyasa_1DS24MC113.pdf"
             download
             className="px-6 py-3 rounded-2xl bg-white text-black font-semibold hover:bg-gray-300"
           >
@@ -457,11 +457,11 @@ export default function App() {
 
         <div className="space-y-4 text-lg text-gray-300">
 
-          <p>ðŸ“§ csvedavyasa2003@gmail.com</p>
+          <p>Ã°Å¸â€œÂ§ csvedavyasa2003@gmail.com</p>
 
-          <p>ðŸ“± +91 7204826477</p>
+          <p>Ã°Å¸â€œÂ± +91 7204826477</p>
 
-          <p>ðŸ“ Bengaluru, Karnataka</p>
+          <p>Ã°Å¸â€œÂ Bengaluru, Karnataka</p>
 
           <div className="flex justify-center gap-6 mt-4">
 
@@ -493,11 +493,11 @@ export default function App() {
       <footer className="border-t border-gray-800 py-8 text-center text-gray-500">
 
         <p>
-          â€œPassionate about building technology that solves real-world problems.â€
+          Ã¢â‚¬Å“Passionate about building technology that solves real-world problems.Ã¢â‚¬Â
         </p>
 
         <p className="mt-2">
-          Â© 2026 Vedavyasa C S
+          Ã‚Â© 2026 Vedavyasa C S
         </p>
 
       </footer>
