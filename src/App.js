@@ -164,7 +164,7 @@ export default function App() {
           <span className="text-cyan-400">
             Vedavyasa C S
           </span>{' '}
-          Ã°Å¸â€˜â€¹
+          
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
@@ -457,11 +457,11 @@ export default function App() {
 
         <div className="space-y-4 text-lg text-gray-300">
 
-          <p>Ã°Å¸â€œÂ§ csvedavyasa2003@gmail.com</p>
+          <p>Email: csvedavyasa2003@gmail.com</p>
 
-          <p>Ã°Å¸â€œÂ± +91 7204826477</p>
+          <p>Phone: +91 7204826477</p>
 
-          <p>Ã°Å¸â€œÂ Bengaluru, Karnataka</p>
+          <p>Location: Bengaluru, Karnataka</p>
 
           <div className="flex justify-center gap-6 mt-4">
 
@@ -493,11 +493,11 @@ export default function App() {
       <footer className="border-t border-gray-800 py-8 text-center text-gray-500">
 
         <p>
-          Ã¢â‚¬Å“Passionate about building technology that solves real-world problems.Ã¢â‚¬Â
+          "Passionate about building technology that solves real-world problems."
         </p>
 
         <p className="mt-2">
-          Ã‚Â© 2026 Vedavyasa C S
+          Copyright 2026 Vedavyasa C S
         </p>
 
       </footer>
