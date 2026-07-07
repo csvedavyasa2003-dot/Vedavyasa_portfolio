@@ -86,21 +86,21 @@ export default function App() {
       title: 'AI-Enabled Healthcare Symptom & Medication Analysis',
       desc: 'Developed an AI-powered healthcare platform using React.js, Django, and Retrieval-Augmented Generation (RAG) for contextual symptom analysis and medication guidance.',
       stack: 'React.js - Django - Python - MySQL - Gemini API - RAG',
-      github: 'https://github.com/yourgithub/healthcare-project',
+      github: '',
       live: '',
     },
     {
       title: 'Small Business Invoice & Billing Portal',
       desc: 'Developed a billing management system with invoice generation, customer management, and payment tracking.',
       stack: 'React.js - PHP - MySQL',
-      github: 'https://github.com/yourgithub/billing-portal',
+      github: '',
       live: '',
     },
     {
       title: 'IPL Match Predictor',
       desc: 'Built a machine learning application that predicts IPL match outcomes using historical cricket datasets.',
       stack: 'Python - Scikit-learn - Streamlit',
-      github: 'https://github.com/yourgithub/ipl-predictor',
+      github: '',
       live: 'https://ipl-predictor-2026-mkxzjdayvsou5mfva5jfau.streamlit.app/',
     },
     {
@@ -161,9 +161,6 @@ export default function App() {
         </p>
 
         <div className="mt-8 flex gap-4 flex-wrap justify-center">
-          <a href="certifications/Vedavyasa_1DS24MC113.pdf" download className="px-6 py-3 rounded-2xl bg-white text-black font-semibold hover:bg-gray-300 transition">
-            Download Resume
-          </a>
           <a href="#projects" className="px-6 py-3 rounded-2xl bg-cyan-500 hover:bg-cyan-600 transition font-semibold">
             View Projects
           </a>
