@@ -107,7 +107,7 @@ export default function App() {
       title: 'Fake Review Detection System',
       desc: 'Developed a machine learning model to classify genuine and fraudulent product reviews using Natural Language Processing.',
       stack: 'Python - Machine Learning - NLP',
-      github: '',
+      github: 'https://github.com/csvedavyasa2003-dot/fake-review-detection-system',
       live: '',
     },
   ];
