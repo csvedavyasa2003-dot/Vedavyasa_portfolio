@@ -1,507 +1,342 @@
 export default function App() {
-
-  const skills = {
-    Programming: ['Python', 'Java', 'PHP', 'SQL'],
-
-    Frontend: ['ReactJS', 'HTML', 'CSS', 'JavaScript'],
-
-    Backend: ['Django', 'REST APIs'],
-
-    Tools: [
-      'Git & GitHub',
-      'Android Studio',
-      'VS Code',
-      'Power BI',
-      'Docker',
-    ],
-
-    DataAnalysis: [
-      'Data Cleaning',
-      'Data Visualization',
-      'Power BI',
-      'Excel Analytics',
-      'Pandas',
-      'NumPy',
-      'SQL Analysis',
-    ],
-
-    Concepts: [
-      'Artificial Intelligence',
-      'Machine Learning',
-      'Cloud Computing',
-      'RAG',
-      'API Integration',
-      'Business Analytics',
-    ],
-  };
-
-  const projects = [
+  const education = [
     {
-      title: 'AI-Enabled Healthcare Symptom & Medication Analysis System',
-      desc: 'AI-powered healthcare analysis platform using Django and RAG techniques for symptom analysis and intelligent medical insights.',
-      github: 'https://github.com/yourgithub/healthcare-project',
-      live: '',
+      degree: 'Master of Computer Applications (MCA)',
+      institution: 'Dayananda Sagar College of Engineering',
+      years: '2024 - 2026',
+      score: 'CGPA: 8.39',
     },
-
     {
-  title: 'Fake Review Detection System',
-  desc: 'Machine learning-based system to classify reviews as genuine or fake using preprocessing and classification algorithms.',
-  github: '',
-  live: '',
-},
-
-    {
-      title: 'Small Business Invoice & Billing Portal',
-      desc: 'Full-stack billing and invoice management application using ReactJS, PHP, and MySQL with authentication and payment tracking.',
-      github: 'https://github.com/yourgithub/billing-portal',
-      live: '',
-    },
-
-    {
-      title: 'IPL Match Predictor',
-      desc: 'Machine learning IPL match prediction application with interactive UI and real-time prediction functionality.',
-      github: 'https://github.com/yourgithub/ipl-predictor',
-      live: 'https://ipl-predictor-2026-mkxzjdayvsou5mfva5jfau.streamlit.app/',
-    },
-
-    
-
-    {
-      title: 'Coffee Shop Sales Analysis Dashboard',
-      desc: 'Performed sales data analysis using Excel, SQL, and Power BI to identify business trends, customer behavior, and revenue insights through interactive dashboards.',
-      github: 'https://github.com/yourgithub/coffee-shop-analysis',
-      live: '',
+      degree: 'Bachelor of Computer Applications (BCA)',
+      institution: 'The National Institute of Engineering (NIE) First Grade College',
+      years: '2021 - 2024',
+      score: 'CGPA: 8.42',
     },
   ];
 
-  const internships = [
+  const experiences = [
     {
-      company: 'Bluestock Fintech',
-      role: 'Software Development Engineer (SDE) Intern',
-      work: 'Worked on frontend-backend integration, debugging, application enhancement, and real-world software development workflows.',
-      certificate: 'certifications/bluestock.jpeg',
+      role: 'Data Analytics Intern',
+      company: 'EDUFYI Tech Solutions',
+      period: 'April 2026 - June 2026',
+      points: [
+        'Performed data cleaning, preprocessing, and exploratory data analysis.',
+        'Built interactive dashboards using Excel and Power BI.',
+        'Generated business insights using SQL and Python.',
+      ],
     },
-
     {
-      company: 'PAT Technologies (Edutainer)',
       role: 'Software Development Intern',
-      work: 'Worked on software development, API integration, debugging, and full-stack implementation tasks during internship training.',
+      company: 'PAT Technologies',
+      period: 'February 2026 - May 2026',
+      points: [
+        'Developed a full-stack billing management portal using React.js, PHP, and MySQL.',
+        'Integrated REST APIs and managed database operations.',
+        'Performed testing, debugging, and feature enhancements.',
+      ],
       certificate: 'certifications/edutainer.pdf',
     },
-
     {
-      company: 'Orb Focus Pvt Ltd',
+      role: 'Software Development Intern',
+      company: 'Bluestock Fintech',
+      period: 'March 2026 - May 2026',
+      points: [
+        'Assisted in developing web applications using Python and Django.',
+        'Worked on REST API integration and backend functionality.',
+        'Improved application performance through testing and debugging.',
+      ],
+      certificate: 'certifications/bluestock.jpeg',
+    },
+    {
       role: 'Web Development Intern',
-      work: 'Worked on web application development, testing, debugging, and UI improvements using modern web technologies.',
+      company: 'Orb Focus Pvt. Ltd.',
+      period: 'February 2024 - June 2024',
+      points: [
+        'Developed responsive web applications using HTML, CSS, and JavaScript.',
+        'Enhanced user interfaces and improved application usability.',
+        'Performed testing, debugging, and software maintenance.',
+      ],
       certificate: 'certifications/orb_focus_internship.jpeg',
     },
   ];
 
+  const skills = {
+    Programming: ['Python', 'JavaScript', 'PHP'],
+    'Web Development': ['React.js', 'Django', 'HTML5', 'CSS3', 'REST APIs'],
+    Databases: ['SQL', 'MySQL', 'MongoDB'],
+    'Data Analytics': [
+      'Microsoft Excel',
+      'Power BI',
+      'Data Cleaning',
+      'Data Visualization',
+      'Exploratory Data Analysis',
+    ],
+    'Artificial Intelligence': [
+      'Machine Learning',
+      'Retrieval-Augmented Generation (RAG)',
+      'Prompt Engineering',
+      'Gemini API',
+    ],
+    Tools: ['Git', 'GitHub', 'VS Code'],
+  };
+
+  const projects = [
+    {
+      title: 'AI-Enabled Healthcare Symptom & Medication Analysis',
+      desc: 'Developed an AI-powered healthcare platform using React.js, Django, and Retrieval-Augmented Generation (RAG) for contextual symptom analysis and medication guidance.',
+      stack: 'React.js - Django - Python - MySQL - Gemini API - RAG',
+      github: 'https://github.com/yourgithub/healthcare-project',
+      live: '',
+    },
+    {
+      title: 'Small Business Invoice & Billing Portal',
+      desc: 'Developed a billing management system with invoice generation, customer management, and payment tracking.',
+      stack: 'React.js - PHP - MySQL',
+      github: 'https://github.com/yourgithub/billing-portal',
+      live: '',
+    },
+    {
+      title: 'IPL Match Predictor',
+      desc: 'Built a machine learning application that predicts IPL match outcomes using historical cricket datasets.',
+      stack: 'Python - Scikit-learn - Streamlit',
+      github: 'https://github.com/yourgithub/ipl-predictor',
+      live: 'https://ipl-predictor-2026-mkxzjdayvsou5mfva5jfau.streamlit.app/',
+    },
+    {
+      title: 'Fake Review Detection System',
+      desc: 'Developed a machine learning model to classify genuine and fraudulent product reviews using Natural Language Processing.',
+      stack: 'Python - Machine Learning - NLP',
+      github: '',
+      live: '',
+    },
+  ];
+
   const certifications = [
-    {
-      title: 'IBM Introduction to Cloud',
-      file: 'certifications/cloud.pdf',
-    },
+    { title: 'IBM SQL and Relational Databases', file: 'certifications/sql-db.pdf' },
+    { title: 'Programming in Java - NPTEL', file: 'certifications/java.pdf' },
+    { title: 'Python Essentials 1 - Cisco Networking Academy' },
+    { title: 'Python Essentials 2 - Cisco Networking Academy' },
+    { title: 'Python Programming - QSpiders', file: 'certifications/python-sql.pdf' },
+    { title: 'SQL & Database Management - QSpiders', file: 'certifications/python-sql.pdf' },
+    { title: 'Data Analytics Internship - EDUFYI Tech Solutions' },
+    { title: 'Introduction to Cloud Computing', file: 'certifications/cloud.pdf' },
+  ];
 
-    {
-      title: 'Python & SQL Certification',
-      file: 'certifications/python-sql.pdf',
-    },
-
-    {
-      title: 'NPTEL Programming in Java',
-      file: 'certifications/java.pdf',
-    },
-
-    {
-      title: 'IBM SQL and Relational Databases 101',
-      file: 'certifications/sql-db.pdf',
-    },
+  const achievements = [
+    'Presented a research paper at ICDCA 2026 on Machine Learning-based Stress Level Classification.',
+    'Completed multiple Software Development and Data Analytics internships.',
+    'Developed AI, Machine Learning, and Full-Stack applications using modern technologies.',
   ];
 
   return (
     <div className="bg-black text-white min-h-screen font-sans">
-
-      {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-gray-800">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-
-          <h1 className="text-2xl font-bold text-cyan-400">
-            Vedavyasa | Developer & Data Analyst
+          <h1 className="text-xl md:text-2xl font-bold text-cyan-400">
+            Vedavyasa | Software Developer & Data Analyst
           </h1>
 
-          <div className="space-x-6 hidden md:flex">
-
-            <a href="#about" className="hover:text-cyan-400">
-              About
-            </a>
-
-            <a href="#skills" className="hover:text-cyan-400">
-              Skills
-            </a>
-
-            <a href="#projects" className="hover:text-cyan-400">
-              Projects
-            </a>
-
-            <a href="#internships" className="hover:text-cyan-400">
-              Internships
-            </a>
-
-            <a href="#contact" className="hover:text-cyan-400">
-              Contact
-            </a>
-
+          <div className="space-x-5 hidden lg:flex text-sm">
+            <a href="#about" className="hover:text-cyan-400">About</a>
+            <a href="#education" className="hover:text-cyan-400">Education</a>
+            <a href="#experience" className="hover:text-cyan-400">Experience</a>
+            <a href="#skills" className="hover:text-cyan-400">Skills</a>
+            <a href="#projects" className="hover:text-cyan-400">Projects</a>
+            <a href="#contact" className="hover:text-cyan-400">Contact</a>
           </div>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-black to-gray-900">
-
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
-          Hi, I'm{' '}
-          <span className="text-cyan-400">
-            Vedavyasa C S
-          </span>{' '}
-          
+      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24 bg-gradient-to-b from-black to-gray-900">
+        <p className="text-cyan-300 font-semibold mb-3">Hi, I'm</p>
+        <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-cyan-400">
+          Vedavyasa C S
         </h1>
-
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
-          MCA Student | Full Stack Developer | Data Analyst | AI & Cloud Enthusiast
+          MCA Graduate | Software Developer | Data Analyst | AI Enthusiast
         </h2>
-
-        <p className="max-w-3xl text-gray-400 text-lg leading-relaxed">
-          Passionate about building scalable web applications and solving
-          real-world problems using technology. Skilled in ReactJS,
-          Django, Python, SQL, and modern web technologies with hands-on
-          experience in AI-powered, data analytics, and full-stack projects.
+        <p className="max-w-4xl text-gray-400 text-lg leading-relaxed">
+          Passionate about building scalable software, analyzing data, and developing AI-powered solutions. Experienced in full-stack development, data analytics, and machine learning through internships and academic projects. I enjoy solving real-world problems with technology and continuously learning emerging tools and frameworks.
         </p>
 
         <div className="mt-8 flex gap-4 flex-wrap justify-center">
-
-          <a
-            href="#projects"
-            className="px-6 py-3 rounded-2xl bg-cyan-500 hover:bg-cyan-600 transition font-semibold"
-          >
-            View Projects
-          </a>
-
-          <a
-            href="#contact"
-            className="px-6 py-3 rounded-2xl border border-cyan-500 hover:bg-cyan-500 transition font-semibold"
-          >
-            Contact Me
-          </a>
-
-          <a
-            href="certifications/Vedavyasa_1DS24MC113.pdf"
-            download
-            className="px-6 py-3 rounded-2xl bg-white text-black font-semibold hover:bg-gray-300"
-          >
+          <a href="certifications/Vedavyasa_1DS24MC113.pdf" download className="px-6 py-3 rounded-2xl bg-white text-black font-semibold hover:bg-gray-300 transition">
             Download Resume
           </a>
-
+          <a href="#projects" className="px-6 py-3 rounded-2xl bg-cyan-500 hover:bg-cyan-600 transition font-semibold">
+            View Projects
+          </a>
+          <a href="#contact" className="px-6 py-3 rounded-2xl border border-cyan-500 hover:bg-cyan-500 transition font-semibold">
+            Contact Me
+          </a>
         </div>
       </section>
 
-      {/* About */}
+      <section className="bg-gray-950 py-16 px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 mb-6">
+            What I'm Looking For
+          </h2>
+          <p className="text-lg text-gray-300 leading-relaxed">
+            I am currently seeking Software Developer, Data Analyst, Backend Developer, and Graduate Trainee opportunities where I can apply my technical skills, contribute to impactful projects, and continue growing as a technology professional.
+          </p>
+        </div>
+      </section>
+
       <section id="about" className="max-w-6xl mx-auto px-6 py-20">
-
-        <h2 className="text-4xl font-bold text-cyan-400 mb-8">
-          About Me
-        </h2>
-
-        <p className="text-gray-300 text-lg leading-relaxed">
-          I am currently pursuing my Master of Computer Applications (MCA)
-          at Dayananda Sagar College of Engineering, Bengaluru. I have a
-          strong interest in Full Stack Development, Data Analytics,
-          Artificial Intelligence, and Cloud Computing.
-
-          Through internships and projects, I have gained practical experience
-          in web application development, REST API integration, debugging,
-          database management, and data analysis using modern tools and technologies.
-        </p>
-
+        <h2 className="text-4xl font-bold text-cyan-400 mb-8">About Me</h2>
+        <div className="space-y-5 text-gray-300 text-lg leading-relaxed">
+          <p>
+            I am an MCA graduate with a strong foundation in Software Development, Data Analytics, Database Management, and Artificial Intelligence. Through internships and academic projects, I have gained practical experience in developing full-stack applications, analyzing data, building REST APIs, and working with modern web technologies.
+          </p>
+          <p>
+            My technical expertise includes Python, JavaScript, React.js, Django, SQL, MySQL, MongoDB, Microsoft Excel, and Power BI. I enjoy building scalable applications, solving analytical problems, and creating AI-powered solutions while continuously learning new technologies.
+          </p>
+        </div>
       </section>
 
-      {/* Skills */}
-      <section id="skills" className="bg-gray-950 py-20 px-6">
-
+      <section id="education" className="bg-gray-950 py-20 px-6">
         <div className="max-w-6xl mx-auto">
-
-          <h2 className="text-4xl font-bold text-cyan-400 mb-12">
-            Skills
-          </h2>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-            {Object.entries(skills).map(([category, items]) => (
-
-              <div
-                key={category}
-                className="bg-gray-900 p-6 rounded-3xl shadow-lg border border-gray-800 hover:border-cyan-400 transition"
-              >
-
-                <h3 className="text-2xl font-semibold mb-4 text-cyan-300">
-                  {category}
-                </h3>
-
-                <div className="flex flex-wrap gap-3">
-
-                  {items.map((item) => (
-
-                    <span
-                      key={item}
-                      className="bg-cyan-500/10 text-cyan-300 px-4 py-2 rounded-full text-sm"
-                    >
-                      {item}
-                    </span>
-
-                  ))}
-
-                </div>
-
+          <h2 className="text-4xl font-bold text-cyan-400 mb-12">Education</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {education.map((item) => (
+              <div key={item.degree} className="bg-gray-900 p-8 rounded-3xl border border-gray-800 hover:border-cyan-400 transition">
+                <h3 className="text-2xl font-bold text-white mb-3">{item.degree}</h3>
+                <p className="text-cyan-300 text-lg mb-2">{item.institution}</p>
+                <p className="text-gray-400">{item.years}</p>
+                <p className="text-gray-300 font-semibold mt-4">{item.score}</p>
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </section>
 
-      {/* Projects */}
-      <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
-
-        <h2 className="text-4xl font-bold text-cyan-400 mb-12">
-          Projects
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-8">
-
-          {projects.map((project) => (
-
-            <div
-              key={project.title}
-              className="bg-gray-900 rounded-3xl p-8 border border-gray-800 hover:border-cyan-400 hover:scale-105 transition duration-300"
-            >
-
-              <h3 className="text-2xl font-bold mb-4 text-white">
-                {project.title}
-              </h3>
-
-              <p className="text-gray-400 leading-relaxed mb-6">
-                {project.desc}
-              </p>
-
-              <div className="flex gap-4 flex-wrap">
-
-                {project.github && (
-
-  <a
-    href={project.github}
-    target="_blank"
-    rel="noreferrer"
-    className="px-4 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-600 transition"
-  >
-    GitHub
-  </a>
-
-)}
-
-                {project.live && (
-
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="px-4 py-2 border border-cyan-400 rounded-xl hover:bg-cyan-500 transition"
-                  >
-                    Live Demo
-                  </a>
-
-                )}
-
+      <section id="experience" className="max-w-6xl mx-auto px-6 py-20">
+        <h2 className="text-4xl font-bold text-cyan-400 mb-12">Professional Experience</h2>
+        <div className="space-y-8">
+          {experiences.map((experience) => (
+            <div key={`${experience.company}-${experience.role}`} className="bg-gray-900 p-8 rounded-3xl border border-gray-800 hover:border-cyan-400 transition">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-3 mb-5">
+                <div>
+                  <h3 className="text-2xl font-bold text-white">{experience.role}</h3>
+                  <h4 className="text-cyan-300 text-lg">{experience.company}</h4>
+                </div>
+                <p className="text-gray-400 font-medium">{experience.period}</p>
               </div>
-
-            </div>
-
-          ))}
-
-        </div>
-
-      </section>
-
-      {/* Internships */}
-      <section id="internships" className="bg-gray-950 py-20 px-6">
-
-        <div className="max-w-6xl mx-auto">
-
-          <h2 className="text-4xl font-bold text-cyan-400 mb-12">
-            Internship Experience
-          </h2>
-
-          <div className="space-y-8">
-
-            {internships.map((internship) => (
-
-              <div
-                key={internship.company}
-                className="bg-gray-900 p-8 rounded-3xl border border-gray-800"
-              >
-
-                <h3 className="text-2xl font-bold text-white">
-                  {internship.company}
-                </h3>
-
-                <h4 className="text-cyan-300 mb-2">
-                  {internship.role}
-                </h4>
-
-                <p className="text-gray-500 mb-4">
-                  Internship Experience
-                </p>
-
-                <p className="text-gray-400 mb-4">
-                  {internship.work}
-                </p>
-
-                <a
-                  href={internship.certificate}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-block px-4 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-600 transition"
-                >
+              <ul className="space-y-3 text-gray-300 list-disc list-inside">
+                {experience.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+              {experience.certificate && (
+                <a href={experience.certificate} target="_blank" rel="noreferrer" className="inline-block mt-6 px-4 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-600 transition">
                   View Certificate
                 </a>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* Certifications */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-
-        <h2 className="text-4xl font-bold text-cyan-400 mb-12">
-          Certifications
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-6">
-
-          {certifications.map((cert) => (
-
-            <div
-              key={cert.title}
-              className="bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-cyan-400 transition"
-            >
-
-              <p className="text-lg text-gray-300 mb-4">
-                {cert.title}
-              </p>
-
-              <a
-                href={cert.file}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-block px-4 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-600 transition"
-              >
-                View Certificate
-              </a>
-
+              )}
             </div>
-
           ))}
-
         </div>
-
       </section>
 
-      {/* Career Objective */}
-      <section className="bg-gray-950 py-20 px-6">
-
-        <div className="max-w-5xl mx-auto text-center">
-
-          <h2 className="text-4xl font-bold text-cyan-400 mb-8">
-            Career Objective
-          </h2>
-
-          <p className="text-lg text-gray-300 leading-relaxed">
-            To build a successful career in Software Development and
-            Data Analytics by applying my technical knowledge,
-            analytical thinking, and problem-solving skills to develop
-            innovative and impactful solutions while continuously
-            learning emerging technologies.
-          </p>
-
-        </div>
-
-      </section>
-
-      {/* Contact */}
-      <section
-        id="contact"
-        className="max-w-5xl mx-auto px-6 py-20 text-center"
-      >
-
-        <h2 className="text-4xl font-bold text-cyan-400 mb-10">
-          Contact Me
-        </h2>
-
-        <div className="space-y-4 text-lg text-gray-300">
-
-          <p>Email: csvedavyasa2003@gmail.com</p>
-
-          <p>Phone: +91 7204826477</p>
-
-          <p>Location: Bengaluru, Karnataka</p>
-
-          <div className="flex justify-center gap-6 mt-4">
-
-            <a
-              href="https://github.com/csvedavyasa2003-dot"
-              target="_blank"
-              rel="noreferrer"
-              className="text-cyan-400 hover:text-white"
-            >
-              GitHub
-            </a>
-
-            <a
-              href="https://linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-cyan-400 hover:text-white"
-            >
-              LinkedIn
-            </a>
-
+      <section id="skills" className="bg-gray-950 py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-cyan-400 mb-12">Technical Skills</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {Object.entries(skills).map(([category, items]) => (
+              <div key={category} className="bg-gray-900 p-6 rounded-3xl shadow-lg border border-gray-800 hover:border-cyan-400 transition">
+                <h3 className="text-2xl font-semibold mb-4 text-cyan-300">{category}</h3>
+                <div className="flex flex-wrap gap-3">
+                  {items.map((item) => (
+                    <span key={item} className="bg-cyan-500/10 text-cyan-300 px-4 py-2 rounded-full text-sm">
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-
         </div>
-
       </section>
 
-      {/* Footer */}
+      <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
+        <h2 className="text-4xl font-bold text-cyan-400 mb-12">Featured Projects</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {projects.map((project) => (
+            <div key={project.title} className="bg-gray-900 rounded-3xl p-8 border border-gray-800 hover:border-cyan-400 transition duration-300">
+              <h3 className="text-2xl font-bold mb-4 text-white">{project.title}</h3>
+              <p className="text-gray-400 leading-relaxed mb-5">{project.desc}</p>
+              <p className="text-cyan-300 font-semibold mb-6">Tech Stack: {project.stack}</p>
+              <div className="flex gap-4 flex-wrap">
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noreferrer" className="px-4 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-600 transition">
+                    GitHub
+                  </a>
+                )}
+                {project.live && (
+                  <a href={project.live} target="_blank" rel="noreferrer" className="px-4 py-2 border border-cyan-400 rounded-xl hover:bg-cyan-500 transition">
+                    Live Demo
+                  </a>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-gray-950 py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-cyan-400 mb-12">Certifications</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {certifications.map((cert) => (
+              <div key={cert.title} className="bg-gray-900 border border-gray-800 rounded-2xl p-6 hover:border-cyan-400 transition">
+                <p className="text-lg text-gray-300 mb-4">{cert.title}</p>
+                {cert.file ? (
+                  <a href={cert.file} target="_blank" rel="noreferrer" className="inline-block px-4 py-2 bg-cyan-500 rounded-xl hover:bg-cyan-600 transition">
+                    View Certificate
+                  </a>
+                ) : (
+                  <span className="text-gray-500 text-sm">Certificate link coming soon</span>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-6 py-20">
+        <h2 className="text-4xl font-bold text-cyan-400 mb-12">Achievements</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          {achievements.map((achievement) => (
+            <div key={achievement} className="bg-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-cyan-400 transition">
+              <p className="text-gray-300 leading-relaxed">{achievement}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section id="contact" className="bg-gray-950 px-6 py-20 text-center">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold text-cyan-400 mb-10">Contact</h2>
+          <div className="space-y-4 text-lg text-gray-300">
+            <p>Email: <a href="mailto:csvedavyasa2003@gmail.com" className="text-cyan-400 hover:text-white">csvedavyasa2003@gmail.com</a></p>
+            <p>Phone: +91 7204826477</p>
+            <p>Location: Mysuru, Karnataka, India</p>
+            <div className="flex justify-center gap-6 mt-6">
+              <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-cyan-400 hover:text-white">
+                LinkedIn
+              </a>
+              <a href="https://github.com/csvedavyasa2003-dot" target="_blank" rel="noreferrer" className="text-cyan-400 hover:text-white">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer className="border-t border-gray-800 py-8 text-center text-gray-500">
-
-        <p>
-          "Passionate about building technology that solves real-world problems."
-        </p>
-
-        <p className="mt-2">
-          Copyright 2026 Vedavyasa C S
-        </p>
-
+        <p>Building scalable software, data solutions, and AI-powered applications.</p>
+        <p className="mt-2">Copyright 2026 Vedavyasa C S</p>
       </footer>
-
     </div>
   );
 }
