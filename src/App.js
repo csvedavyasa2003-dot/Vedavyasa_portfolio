@@ -24,6 +24,7 @@ export default function App() {
         'Built interactive dashboards using Excel and Power BI.',
         'Generated business insights using SQL and Python.',
       ],
+      certificate: 'certifications/edufyi-data-analytics.pdf',
     },
     {
       role: 'Software Development Intern',
@@ -114,11 +115,11 @@ export default function App() {
   const certifications = [
     { title: 'IBM SQL and Relational Databases', file: 'certifications/sql-db.pdf' },
     { title: 'Programming in Java - NPTEL', file: 'certifications/java.pdf' },
-    { title: 'Python Essentials 1 - Cisco Networking Academy' },
-    { title: 'Python Essentials 2 - Cisco Networking Academy' },
+    { title: 'Python Essentials 1 - Cisco Networking Academy', file: 'certifications/python-essentials-1.pdf' },
+    { title: 'Python Essentials 2 - Cisco Networking Academy', file: 'certifications/python-essentials-2.pdf' },
     { title: 'Python Programming - QSpiders', file: 'certifications/python-sql.pdf' },
     { title: 'SQL & Database Management - QSpiders', file: 'certifications/python-sql.pdf' },
-    { title: 'Data Analytics Internship - EDUFYI Tech Solutions' },
+    { title: 'Data Analytics Internship - EDUFYI Tech Solutions', file: 'certifications/edufyi-data-analytics.pdf' },
     { title: 'Introduction to Cloud Computing', file: 'certifications/cloud.pdf' },
   ];
 
@@ -320,7 +321,7 @@ export default function App() {
           <div className="space-y-4 text-lg text-gray-300">
             <p>Email: <a href="mailto:csvedavyasa2003@gmail.com" className="text-cyan-400 hover:text-white">csvedavyasa2003@gmail.com</a></p>
             <p>Phone: +91 7204826477</p>
-            <p>Location: Mysuru, Karnataka, India</p>
+            <p>Location: Bangalore, Karnataka, India</p>
             <div className="flex justify-center gap-6 mt-6">
               <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-cyan-400 hover:text-white">
                 LinkedIn
